@@ -10,8 +10,8 @@ if __name__ == "__main__":
 
     img, cxywh = get_figure_sample(load_classes(), map_img)
 
-    d = Detector("../yolov5", "../yolov5/runs/train/exp5/weights/best.pt")
-    lm = LetterModel("../figure-detector/model_weights.pth")
+    d = Detector("assets/yolo_weights.pt")
+    lm = LetterModel("assets/model_weights.pth")
 
     time_avg = 0
     for i in range(100):
