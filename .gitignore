@@ -1,0 +1,7 @@
+.idea/
+*.PNG
+/assets/
+/detector/
+/figures/
+*.tif
+*.ttf
